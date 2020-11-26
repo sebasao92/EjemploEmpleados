@@ -11,7 +11,7 @@
 	<groupId>com.remington</groupId>
 	<artifactId>empleados</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>empleados</name>
+	<name>ejemplo-empleados</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

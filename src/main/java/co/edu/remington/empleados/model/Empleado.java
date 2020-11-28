@@ -1,4 +1,4 @@
-package com.remington.empleados.model;
+package co.edu.remington.empleados.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

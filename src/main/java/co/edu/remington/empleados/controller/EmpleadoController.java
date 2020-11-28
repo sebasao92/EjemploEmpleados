@@ -1,7 +1,4 @@
-package com.remington.empleados.controller;
-
-import com.remington.empleados.model.Empleado;
-import com.remington.empleados.service.EmpleadoService;
+package co.edu.remington.empleados.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,6 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import co.edu.remington.empleados.model.Empleado;
+import co.edu.remington.empleados.service.EmpleadoService;
 
 @RestController
 public class EmpleadoController {

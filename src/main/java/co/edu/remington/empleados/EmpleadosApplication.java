@@ -1,4 +1,4 @@
-package com.remington.empleados;
+package co.edu.remington.empleados;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.remington.empleados.exception;
+package co.edu.remington.empleados.exception;
 
 public class ErrorResponse {
 

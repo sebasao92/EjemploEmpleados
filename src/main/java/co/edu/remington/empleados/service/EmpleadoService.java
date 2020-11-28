@@ -1,8 +1,4 @@
-package com.remington.empleados.service;
-
-import com.remington.empleados.exception.EmpleadoException;
-import com.remington.empleados.model.Empleado;
-import com.remington.empleados.repository.EmpleadoRepository;
+package co.edu.remington.empleados.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
@@ -10,6 +6,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
+
+import co.edu.remington.empleados.exception.EmpleadoException;
+import co.edu.remington.empleados.model.Empleado;
+import co.edu.remington.empleados.repository.EmpleadoRepository;
 
 @Service
 public class EmpleadoService {

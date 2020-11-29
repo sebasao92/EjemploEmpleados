@@ -14,6 +14,8 @@ import co.edu.remington.empleados.repository.EmpleadoRepository;
 @Service
 public class EmpleadoService {
 
+    public static String MENSAJE_EMPLEADO_NO_EXISTE = "El empleado no existe";
+
     private final EmpleadoRepository empleadoRepository;
 
     @Autowired
@@ -50,7 +52,7 @@ public class EmpleadoService {
         } else {
 
             throw new EmpleadoException(
-                    HttpStatus.NOT_FOUND, "El empleado no existe"
+                    HttpStatus.NOT_FOUND, MENSAJE_EMPLEADO_NO_EXISTE
             );
         }
     }
